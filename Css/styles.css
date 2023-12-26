@@ -1,0 +1,84 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTczWU5FWU9uckM2eWpvd2xNRjh2WWxaQXVhUXxBQ3Jtc0ttVlp5c1I3SWFQNWptMjFlYmRHZlo1WVl3c1BhdC01ZDRGODZCS1FIeTVnWHFmaGNjWnM5aTFZdTRZYnJURHdob0xqUkFDZXlYd0s2cWtqa2xkTEEzcXBqel9HdDFxYkJuTEx0TzItbEo5QWJjLXk2aw&q=https%3A%2F%2Fsource.unsplash.com%2F1600x900%2F%3Flandscape&v=qxzqEuAOYZ4");
+}
+
+.caixa-maior {
+    background: #000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffff;
+    width: calc(100% - 100px);
+}
+
+.botao-buscar {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+
+}
+
+.img-busca {
+    width: 20px;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.cidade {
+    color: #ffff;
+    font-size: 28px;
+    font-weight: 300;
+
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.texto-previsao {
+    color: #ffff;
+    margin-left: 20px;
+}
+
+.umidade {
+    color: #ffff;
+    margin-top: 20px;
+}
